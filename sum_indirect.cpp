@@ -28,6 +28,6 @@ sum(int64_t N, double A[])
    }
    printf(" inside sum_indirect perform_sum, N=%lld \n", N);
 
-   return 0;
+   return sum;
 }
 
