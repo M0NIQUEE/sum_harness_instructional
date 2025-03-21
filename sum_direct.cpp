@@ -17,8 +17,12 @@ setup(int64_t N, double A[])
 double
 sum(int64_t N, double A[])
 {
-   printf(" inside direct_sum perform_sum, N=%lld \n", N);
+   double sum = 0;
+   for(int i = 0; i < N; i ++){
+      sum += A[i];
+   }
 
-   return 0;
+   printf(" inside direct_sum perform_sum, N=%lld \n", N);
+   return sum;
 }
 
