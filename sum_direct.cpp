@@ -13,12 +13,9 @@
 void 
 setup(int64_t N, double A[])
 {
-   srand48(time(nullptr));
-
-   for (int64_t i = 0; i < N; i++) {
-       A[i] = lrand48() % N;
+   for(int i = 0; i < N; i++){
+      A[i] = 2;
    }
-
    printf(" inside direct_sum problem_setup, N=%lld \n", N);
 }
 
