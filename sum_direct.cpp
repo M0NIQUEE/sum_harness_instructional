@@ -17,7 +17,7 @@ setup(int64_t N, double A[])
 double
 sum(int64_t N, double A[])
 {
-   double sum = 0;
+   double sum = 0.0;
    for(int i = 0; i < N; i ++){
       sum += A[i];
    }
